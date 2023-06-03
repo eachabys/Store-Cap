@@ -7,7 +7,7 @@ The rest of the project was performed using the technologies such as Java, Postg
 
 # Future Goals
 
-Implement Admin UI
+Implement splitting admin and personnel and API for admin.
 Implement scheduled update Shopping Analytics. Consider cloud implementation. 
 Consider Order/Return decoupling and Return Analytics implementation 
 
