@@ -2,7 +2,24 @@
 I have been curious to see the impact a small entity can make for the whole community. The Store Inventory Planner is an app to help local store personnel to keep up with the orders/returns data management without extra operational overhead. Also, the app allows one to see the impact of his/her small store activity on a big scale using the analytical capabilities of the app.
 
 # Dataset
-The original orders table (the dataset is available at (https://community.tableau.com/s/question/0D54T00000CWeX8SAL/sample-superstore-sales-excelxls)  was imported into Postgresql database after it went through the modification using a python script. The imported table had the following columns ('id': 'unique row id'; 'city':'city where the order was shipped', 'customerid': 'non-unique value', 'date':'date when the order was ordered', 'lastname':' Last Name  of a customer who put the order and whose customerid is listed on this order','name':'First Name of a customer ut the order and whose customerid is listed on this order', 'orderid':' unique value identifying the order. It can't be duplicated in this table. It serves as a unique key, defining the order in this table', 'productid':'product id of the items in this order. Each order can contain only 1 productid, but the quantity of the product can be more than 1 for the same orderid', thaquantity | region | returnamount | returnquantity | returnstatus | sales  | state |  zip  | user_id
+The original orders table (the dataset is available at (https://community.tableau.com/s/question/0D54T00000CWeX8SAL/sample-superstore-sales-excelxls)  was imported into Postgresql database after it went through the modification using a python script. The following data was imported to postgresql:
+'id': 'unique row id'; 
+'city':'city where the order was shipped', 
+'customerid': 'non-unique value', 
+'date':'date when the order was ordered', 
+'lastname':' Last Name  of a customer who put the order and whose customerid is listed on this order',
+'name':'First Name of a customer ut the order and whose customerid is listed on this order', 
+'orderid':' unique value identifying the order. It can't be duplicated in this table. It serves as a unique key, defining the order in this table', 
+'productid':'product id of the items in this order. Each order can contain only 1 productid, but the quantity of the product can be more than 1 for the same orderid', 
+'quantity':'quantity of the items ordered',
+'region':'region where the items are shipped',
+'returnamount':'the $ amount which was returned after the customer returned some items',
+'returnquantity': 'how many items the customer returned',
+'returnstatus': 'can be 1 in case if the customer submitted return or 0 if not',
+'sales':'$ amount paid for the purchase',
+'state':'state where the order was shipped', 
+'zip':'zip code where the order was shipped',
+'user_id':'of the user who served the order and entered it into db'.
 
 # App Main Features
 
