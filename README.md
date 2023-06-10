@@ -42,9 +42,9 @@ The rest of the project was performed using the technologies such as Java, Postg
 
 # Author
 
-👤 Elmira Farrar
-Linkedin: @efarra
+👤 Elmira Farrar<br />
+Linkedin: @efarra<br />
 Github: @eachabys
 
-Please ⭐️ this repository if this project helped you!
+Feel free to ⭐️ this repository if this project helped you!
 
