@@ -22,7 +22,11 @@ The original orders table (the dataset is available at (https://community.tablea
 'user_id':'of the user who served the order and entered it into db'.
 
 # App Main Features
-
+-Register a new user (store personnel);<br />
+-User login with a unique password;<br />
+-Submit an order detail (sale);<br />
+-Submit a return for a specific order; <br />
+-View/Create custom shopping analysis for the user's needs; <br />
 
 # Technologies and tools
 The repository contains the code and input data for the project Store inventory update. The project can be used by a small store personnel to maintain the records of the orders (sales and returns) without any need for a technical overhead.
