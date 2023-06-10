@@ -3,8 +3,8 @@ I have been curious to see the impact a small entity can make for the whole comm
 
 # Dataset
 The original orders table (the dataset is available at (https://community.tableau.com/s/question/0D54T00000CWeX8SAL/sample-superstore-sales-excelxls)  was imported into Postgresql database after it went through the modification using a python script. The following data was imported to postgresql:
-'id': 'unique row id'; 
-'city':'city where the order was shipped', 
+'id': 'unique row id';__
+'city':'city where the order was shipped',__ 
 'customerid': 'non-unique value', 
 'date':'date when the order was ordered', 
 'lastname':' Last Name  of a customer who put the order and whose customerid is listed on this order',
@@ -22,6 +22,7 @@ The original orders table (the dataset is available at (https://community.tablea
 'user_id':'of the user who served the order and entered it into db'.
 
 # App Main Features
+
 
 # Technologies and tools
 The repository contains the code and input data for the project Store inventory update. The project can be used by a small store personnel to maintain the records of the orders (sales and returns) without any need for a technical overhead.
