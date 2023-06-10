@@ -31,10 +31,10 @@ The rest of the project was performed using the technologies such as Java, Postg
 
 # Future Goals
 
-Implement splitting admin and personnel and API for admin.
-Implement scheduled update Shopping Analytics. Consider cloud implementation. 
-Consider Customer Memoisation and decoupling.
-Personal Analytics page (specific for a particular user) implementation. 
+-Implement splitting admin and personnel and API for admin.<br />
+-Implement scheduled update Shopping Analytics. Consider cloud implementation. <br />
+-Consider Customer Memoisation and decoupling.<br />
+-Personal Analytics page (specific for a particular user) implementation. <br />
 
 # Author
 
