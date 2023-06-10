@@ -37,7 +37,7 @@ The rest of the project was performed using the technologies such as Java, Postg
 
 -Implement splitting admin and personnel and API for admin.<br />
 -Implement scheduled update Shopping Analytics. Consider cloud implementation. <br />
--Consider Customer Memoisation and decoupling.<br />
+-Consider Customer Memoisation. So, in case of a repeated customer, the user can search for the customer details. <br />
 -Personal Analytics page (specific for a particular user) implementation. <br />
 
 # Author
