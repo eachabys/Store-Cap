@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+          rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+          crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/home.css" type="text/css">
+  <title>Home</title>
+</head>
+<body class="container">
+<div class="container-md">
+    <div class="mt-1">
+      <a class="btn btn-danger navbar-btn" href="./index.html" onclick="handleLogout()">Logout</a>
+      <a class="btn btn-info" href="./returns.html">View/Return Order</a>
+      <a class="btn btn-success" href="./analysis.html">Analysis</a>
+    </div>
+    <h2> Order Entry</h2>
+    <form id="note-form">
+    <div  class="form-group">
+      <label for="note-name">Date, mm/dd/yy</label>
+      <input type="text" style="width:49%;height:30px;" class="form-control" id="note-date" placeholder="Date mm/dd/yy">
+    </div>     
+    <div  class="form-group">
+      <label for="note-name" >Name</label>
+      <input type="text" style="width:49%;height:30px;" class="form-control" id="note-name" placeholder="Name">
+    </div>
+    <div  class="form-group">
+        <label for="note-lastname" > Last Name</label>
+        <input type="text" style="width:49%;height:30px;" class="form-control" id="note-lastname" placeholder="Last Name">
+      </div>
+      <div  class="form-group">
+        <label for="note-orderid" > Order Id</label>
+        <input type="text" style="width:49%;height:30px;" class="form-control" id="note-orderid" placeholder="Order Id">
+      </div>
+    <div  class="form-group">
+        <label for="note-customerid" > Customer ID</label>
+        <input type="number" style="width:49%;height:30px;" class="form-control" id="note-customerid" placeholder="Customer ID">
+      </div>
+
+    <div  class="form-group">
+      <label for="note-productid"> Product ID</label>
+      <input type="number" style="width:49%;height:30px;" class="form-control" id="note-productid" placeholder="Product ID">
+    </div>
+    <div  class="form-group">
+        <label for="note-city"> City</label>
+        <input type="text" style="width:49%;height:30px;" class="form-control" id="note-city" placeholder="City">
+      </div>
+      <div  class="form-group">
+        <label for="note-state"> State, XX</label>
+        <input type="text" style="width:49%;height:30px;" class="form-control" id="note-state" placeholder="State">
+      </div>
+      <div  class="form-group">
+        <label for="note-zip"> Zip Code</label>
+        <input type="number" style="width:49%;height:30px;" class="form-control" id="note-zip" placeholder="Zip Code">
+      </div>
+      <div  class="form-group">
+        <label for="note-region"> Region</label>
+        <input type="text" style="width:49%;height:30px;" class="form-control" id="note-region" placeholder="Region">
+      </div>
+      <div  class="form-group">
+        <label for="note-sales"> Sale Amount, $ </label>
+        <input type="text" style="width:49%;height:30px;" class="form-control" id="note-sales" placeholder="Sales">
+      </div>
+      <div  class="form-group">
+        <label for="note-quantity"> Quantity</label>
+        <input type="number" style="width:49%;height:30px;" class="form-control" id="note-quantity" placeholder="Quantity">
+      </div>
+      <div class="mt-1">
+      <button id="submit-button" id="submit" type="submit" class="btn btn-primary" onClick="history.go(0);">Submit</button>
+      </div>
+   
+  </form>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+<script src="./javascript/home.js" type="application/javascript"></script>
+</body>
+</html>
