@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+          rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+          crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/home.css" type="text/css">
+  <title>View Customer Details</title>
+</head>
+<body class="container" background="images/categories4.jpg" no-repeat center center fixed>
+        <div class="container-md">
+            <div class="mt-1">
+              <a class="btn btn-danger navbar-btn" href="./index.html" onclick="handleLogout()">Logout</a>
+              <a class="btn btn-info" href="./home.html">Order Entry</a>
+              
+              </div>   
+            <h2> Customer Details</h2>
+            <form id="returns-form">
+            <div  class="form-group">
+              <label for="returns-id">Order ID </label>
+              <select id="returnid" style="width:49%;height:40px;" class="form-control" placeholder="Order Id">
+              </select>
+            </div>  
+               
+        <div  class="form-group">
+          <label for="namedetails">First Name </label>
+          <input type="text" style="width:49%;height:30px;" class="form-control" id="namedetails" placeholder="First Name">         
+          <label for="lastnamedetails">Last Name </label>
+          <input type="text" style="width:49%;height:30px;" class="form-control" id="lastnamedetails" placeholder="Last Name">         
+          <label for="citydetails">City </label>
+          <input type="text" style="width:49%;height:30px;" class="form-control" id="citydetails" placeholder="City">         
+          <label for="statedetails">State </label>
+          <input type="text" style="width:49%;height:30px;" class="form-control" id="statedetails" placeholder="State">         
+          <label for="zipdetails">Zip code </label>
+          <input type="text" style="width:49%;height:30px;" class="form-control" id="zipdetails" placeholder="Zip Code">         
+          <label for="regiondetails">Region </label>
+          <input type="text" style="width:49%;height:30px;" class="form-control" id="regiondetails" placeholder="Region">         
+         </div>
+        <div class="mt-1"> 
+          <a class="btn btn-primary" href="./returns.html">View/Return Order</a> 
+        </div>  
+            </form>
+        </div>
+        <script src="./javascript/customerdetail.js" type="application/javascript"></script>
+        
+      </body>
+</html>
