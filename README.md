@@ -2,7 +2,8 @@
 I have been curious to see the impact a small entity can make for the whole community. The Store Inventory Planner is an app to help local store personnel to keep up with the orders/returns data management without extra operational overhead. Also, the app allows one to see the impact of his/her small store activity on a big scale using the analytical capabilities of the app.
 
 # Dataset
-The original orders table (https://community.tableau.com/s/question/0D54T00000CWeX8SAL/sample-superstore-sales-excelxls) and products table (https://www.kaggle.com/code/dhainjeamita/bigmart-sales-dataset/input ) were imported into Postgresql database after they were modified using python scripts. The following data was imported to postgresql:
+The original orders table (https://community.tableau.com/s/question/0D54T00000CWeX8SAL/sample-superstore-sales-excelxls) and products table (https://www.kaggle.com/code/dhainjeamita/bigmart-sales-dataset/input ) <br />
+were imported into Postgresql database after they were modified using python scripts. The following data was imported to postgresql:<br />
 'id': 'unique row id';<br />
 'city':'city where the order was shipped',<br />
 'customerid': 'non-unique value', <br />
