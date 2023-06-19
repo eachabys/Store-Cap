@@ -25,7 +25,7 @@ were imported into Postgresql database after they were modified using python scr
 # App Main Features
 -Register a new user (store personnel);<br />
 -User login with a unique password;<br />
--Submit an order detail (sale);<br />
+-View a sale order/customer detail;<br />
 -Submit a return for a specific order; <br />
 -View/Create custom shopping analysis for the user's needs; <br />
 
